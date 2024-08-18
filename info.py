@@ -123,7 +123,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', True))
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'mkdiskshortner.lin')
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'mkdiskshortner.link')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '754e27280d4e8c5bed3dd35ed84fc1630c993176')
 # if verify second shortner is True then fill below url and api
 VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', '')
