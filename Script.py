@@ -219,9 +219,11 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>{file_name}
-
-<b> Size ⚙️: {file_size}</b>""" 
+    CAPTION = """<b> {file_name}
+╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═════╗
+♻️ 𝙅𝙊𝙄𝙉 :- @movies4u245
+♻️ 𝙅𝙊𝙄𝙉 :- @movies4uupdate
+╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═════╝</b>""" 
 
 # CAPTION = """<b>{file_name} - Original Audios (AAC 2.0) [Tamil + Hindi + Eng] {file_size}- ESub</b>""" 
 
