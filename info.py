@@ -17,7 +17,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Movies4U')
 API_ID = int(environ.get('API_ID', '14505719'))
 API_HASH = environ.get('API_HASH', '620f0a2aa2cd1474a4953619b3e3643d')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7349715068:AAEFFwlLuRWih8-L-l9O9MC1l1L41aiLoNk")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7349715068:AAFUJqxJXfBcJyuOe0F9Bq3ZGmGXAB4ldf0")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
