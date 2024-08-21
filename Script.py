@@ -219,7 +219,7 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b> {file_name}
+    CAPTION = """<b> {file_caption}
 ╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═════╗
 ♻️ 𝙅𝙊𝙄𝙉 :- @movies4u245
 ♻️ 𝙅𝙊𝙄𝙉 :- @movies4uupdate
