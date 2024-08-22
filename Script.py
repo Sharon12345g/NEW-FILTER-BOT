@@ -697,7 +697,7 @@ Also your tutorial will be Added Your Group..."""
 
     DEVELOPER_TXT = """special Thanks To ❤️ Developers -
 
-<a href='https://t.me/AshutoshGoswami24'>Asʜᴜᴛᴏsʜ Gᴏsᴡᴀᴍɪ 𝟸𝟺 🇮🇳</a>
+<a href='https://t.me/movies4u245'>Movies4U 🇮🇳</a>
 """
 
     RENAME_TXT = """
