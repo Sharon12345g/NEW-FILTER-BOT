@@ -17,7 +17,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Movies4U')
 API_ID = int(environ.get('API_ID', '14505719'))
 API_HASH = environ.get('API_HASH', '620f0a2aa2cd1474a4953619b3e3643d')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7349715068:AAFUJqxJXfBcJyuOe0F9Bq3ZGmGXAB4ldf0")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7349715068:AAGKD0sIIwnec9aDJUBOznI_OPkYJlEGZtw")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -88,7 +88,7 @@ PAYMENT_TEXT = """<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs -
 ‼️ ᴀғᴛᴇʀ sᴇɴᴅɪɴɢ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ᴜs sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ</b>"""
 
 
-OWNER_USERNAME = environ.get('OWNER_USERNAME', 'Arakkalabu23_bot') # owner username without @
+OWNER_USERNAME = environ.get('OWNER_USERNAME', 'M4upremium') # owner username without @
 
 # Clone Information : If Clone Mode Is True Then Bot Clone Other Bots.
 CLONE_MODE = bool(environ.get('CLONE_MODE', False)) # Set True or False
@@ -98,7 +98,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movies4u10')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/movies4uupdate')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_To_Open_Linkl')
+TUTORIAL = environ.get('TUTORIAL', '')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'movies4u10') # Support Chat Link Without https:// or @
 
 # True Or False
