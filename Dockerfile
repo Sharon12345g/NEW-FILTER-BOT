@@ -1,13 +1,18 @@
+# Use Python 3.10 as the base image
+FROM python:3.10
 
-FROM python:3.10.8-slim-buster
+# Set the working directory inside the container
+WORKDIR /app
 
-RUN apt update && apt upgrade -y
-RUN apt install git -y
-COPY requirements.txt /requirements.txt
+# Copy the current directory contents into the container at /app
+COPY . /app/
 
-RUN cd /
-RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /VJ-FILTER-BOT
-WORKDIR /VJ-FILTER-BOT
-COPY . /VJ-FILTER-BOT
-CMD ["python", "bot.py"]
+# Upgrade motor and umongo libraries
+RUN pip install --upgrade motor
+RUN pip install --upgrade umongo
+
+# Install dependencies from requirements.txt
+RUN pip install -r requirements.txt
+
+# Command to run the bot
+CMD ["python3", "bot.py"]
