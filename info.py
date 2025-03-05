@@ -17,11 +17,11 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Movies4U')
 API_ID = int(environ.get('API_ID', '8316054'))
 API_HASH = environ.get('API_HASH', 'bcc4cbeeee0cf8fe9c4b6c5ef443b8fe')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7349715068:AAFa_2TVt2W9W-kCf84c_7tSfVcRw2oLM-o")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7776040347:AAFM0dqvIobGZj9mxKQdwO7pOHDfHWwHOR8")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
-PICS = (environ.get('PICS', 'https://graph.org/file/ef95ade44655b2e50c5dd.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://i.ibb.co/V0zCgzJV/Picsart-25-03-05-23-19-05-825.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/b69af2db776e4e85d21ec.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Open_Linkl")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
